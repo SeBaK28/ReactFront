@@ -1,9 +1,10 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
     return (
-            <div>Aplikacja 1</div>
+        <div>Aplikacja SK</div>
     )
-} 
+}
 
-export default App; 
+export default App;
