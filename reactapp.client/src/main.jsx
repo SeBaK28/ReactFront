@@ -6,10 +6,12 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom"
-import { Towar } from "./Towar/TowarPage.jsx"
-import { Towary } from "./Towar/TowaryPage.jsx"
+import { Client } from "./Client/AddClientPage.jsx"
+import { ClientList } from "./Client/ClientListPage.jsx"
 import { Pracownik } from "./Pracownik/PracownikPage.jsx"
 import { Pracownicy } from "./Pracownik/PracownicyPage.jsx"
+import { StatusPrac } from "./Praca/StatusPracyPage.jsx"
+import { Magazyn } from "./Czesci/MagazynCzesciPage.jsx"
 
 const router = createBrowserRouter([
     {
@@ -17,12 +19,12 @@ const router = createBrowserRouter([
         element: <App />,
     },
     {
-        path: "/towar",
-        element: <Towar />,
+        path: "/add-client",
+        element: <Client />,
     },
     {
-        path: "/towary",
-        element: <Towary />,
+        path: "/client-list",
+        element: <ClientList />,
     },
     {
         path: "/pracownik",
@@ -32,7 +34,14 @@ const router = createBrowserRouter([
         path: "/pracownicy",
         element: <Pracownicy />,
     },
-
+    {
+        path: "/praca",
+        element: <StatusPrac />,
+    },
+    {
+        path: "/magazyn",
+        element: <Magazyn />,
+    }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
