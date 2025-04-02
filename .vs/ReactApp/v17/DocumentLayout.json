@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\czesci\\magazynczescipage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\czesci\\magazynczescipage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\client\\clientlistpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\client\\clientlistpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\layout\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\layout\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\pracownik\\pracownikpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\pracownik\\pracownikpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\client\\addclientpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\client\\addclientpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\pracownik\\pracownicypage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\pracownik\\pracownicypage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\praca\\statuspracypage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\praca\\statuspracypage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -42,99 +30,54 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClientListPage.jsx",
-              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Client\\ClientListPage.jsx",
-              "RelativeDocumentMoniker": "reactapp.client\\src\\Client\\ClientListPage.jsx",
-              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Client\\ClientListPage.jsx",
-              "RelativeToolTip": "reactapp.client\\src\\Client\\ClientListPage.jsx",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAAAH8AAAAUAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\App.jsx",
+              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\App.jsx",
+              "RelativeToolTip": "reactapp.client\\src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-01T19:06:07.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddClientPage.jsx",
-              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Client\\AddClientPage.jsx",
-              "RelativeDocumentMoniker": "reactapp.client\\src\\Client\\AddClientPage.jsx",
-              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Client\\AddClientPage.jsx",
-              "RelativeToolTip": "reactapp.client\\src\\Client\\AddClientPage.jsx",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADYAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-01T19:06:06.877Z",
+              "WhenOpened": "2025-04-02T14:54:29.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PracownikPage.jsx",
-              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Pracownik\\PracownikPage.jsx",
-              "RelativeDocumentMoniker": "reactapp.client\\src\\Pracownik\\PracownikPage.jsx",
-              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Pracownik\\PracownikPage.jsx",
-              "RelativeToolTip": "reactapp.client\\src\\Pracownik\\PracownikPage.jsx",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-01T19:06:03.545Z",
+              "Title": "App.css",
+              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\App.css",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\App.css",
+              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\App.css",
+              "RelativeToolTip": "reactapp.client\\src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-01T20:26:51.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PracownicyPage.jsx",
-              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Pracownik\\PracownicyPage.jsx",
-              "RelativeDocumentMoniker": "reactapp.client\\src\\Pracownik\\PracownicyPage.jsx",
-              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Pracownik\\PracownicyPage.jsx",
-              "RelativeToolTip": "reactapp.client\\src\\Pracownik\\PracownicyPage.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Layout.jsx",
+              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\layout\\Layout.jsx",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\layout\\Layout.jsx",
+              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\layout\\Layout.jsx",
+              "RelativeToolTip": "reactapp.client\\src\\layout\\Layout.jsx",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-01T19:06:02.971Z",
+              "WhenOpened": "2025-04-01T19:59:33.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StatusPracyPage.jsx",
-              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Praca\\StatusPracyPage.jsx",
-              "RelativeDocumentMoniker": "reactapp.client\\src\\Praca\\StatusPracyPage.jsx",
-              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Praca\\StatusPracyPage.jsx",
-              "RelativeToolTip": "reactapp.client\\src\\Praca\\StatusPracyPage.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-01T19:05:56.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "main.jsx",
               "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\main.jsx",
               "RelativeDocumentMoniker": "reactapp.client\\src\\main.jsx",
               "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\main.jsx",
               "RelativeToolTip": "reactapp.client\\src\\main.jsx",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-03-31T20:16:12.468Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MagazynCzesciPage.jsx",
-              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Czesci\\MagazynCzesciPage.jsx",
-              "RelativeDocumentMoniker": "reactapp.client\\src\\Czesci\\MagazynCzesciPage.jsx",
-              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Czesci\\MagazynCzesciPage.jsx",
-              "RelativeToolTip": "reactapp.client\\src\\Czesci\\MagazynCzesciPage.jsx",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAuwHgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-01T19:03:14.024Z",
               "EditorCaption": ""
             }
           ]

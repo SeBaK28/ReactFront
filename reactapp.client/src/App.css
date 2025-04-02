@@ -1,4 +1,17 @@
-﻿#root {
-    margin: 0 auto;
-    padding: 2rem;
+﻿
+.logo{
+   width: 35px;
+   height: 35px;
+   margin-right:10px;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.cardImage {
+    width: 80px;
+    height: 80px;
+    margin:auto;
 }
