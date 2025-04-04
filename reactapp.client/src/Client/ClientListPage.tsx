@@ -4,8 +4,63 @@ import Accordion from 'react-bootstrap/Accordion';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'; 
+import { useEffect, useState } from 'react';
+import { Client } from '../types/client/client.ts';
 
 export const ClientList = () => {
+    const [
+       listClient , setListClient] = useState<Client[]>([
+        {
+            Id: 1,
+            Nazwisko: "Kowalski",
+            Marka: "Mazda",
+            Model: "CX-3",
+            NrTel: "123123123",
+            Email: "kowal@example.com",
+            Termin: "03.03.2023",
+        },
+        {
+            Id: 2,
+            Nazwisko: "Nowak",
+            Marka: "Audi",
+            Model: "A3",
+            NrTel: "321321321",
+            Email: "nowak@example.com",
+            Termin: "04.04.2024",
+        },
+        {
+            Id: 3,
+            Nazwisko: "Malysz",
+            Marka: "BMW",
+            Model: "X3",
+            NrTel: "123456789",
+            Email: "malysz@example.com",
+            Termin: "05.05.2025",
+        }]);
+
+    useEffect(() => {
+        const listClientApi: Client[] = [
+            {
+                Id: 1,
+                Nazwisko: "Kowalski",
+                Marka: "Mazda",
+                Model: "CX-3",
+                NrTel: "123123123",
+                Email: "kowal@example.com",
+                Termin: "03.03.2023",
+            },
+            {
+                Id: 2,
+                Nazwisko: "Nowak",
+                Marka: "Audi",
+                Model: "A3",
+                NrTel: "321321321",
+                Email: "nowak@example.com",
+                Termin: "04.04.2024",
+            }];
+            
+        setListClient(listClientApi);
+    },[])
     return(
         <Container fluid>
             <Accordion defaultActiveKey="0">
@@ -88,42 +143,16 @@ export const ClientList = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Kowalski</td>
-                        <td>Mazda</td>
-                        <td>Cx-3</td>
-                        <td>123 123 123</td>
-                        <td>kowal@example.com</td>
-                        <td>03.03.2026</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Nowak</td>
-                        <td>Audi</td>
-                        <td>A3</td>
-                        <td>321 321 321</td>
-                        <td>nowak@gmail.com</td>
-                        <td>03.03.2025</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Malysz</td>
-                        <td>BMW</td>
-                        <td>X3</td>
-                        <td>987 654 321</td>
-                        <td>adam@gmail.com</td>
-                        <td>03.03.2025</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Kurek</td>
-                        <td>BMW</td>
-                        <td>X3</td>
-                        <td>123 456 789</td>
-                        <td>bartkur@gmail.com</td>
-                        <td>03.05.2025</td>
-                    </tr>
+                    {listClient.map((item, index) =>
+                        <tr key={index}>
+                            <td>{item.Id}</td>
+                            <td>{item.Nazwisko}</td>
+                            <td>{item.Marka}</td>
+                            <td>{item.Model}</td>
+                            <td>{item.NrTel}</td>
+                            <td>{item.Email}</td>
+                            <td>{item.Termin}</td>
+                        </tr>)}
                 </tbody>
             </Table>
         </Container> 

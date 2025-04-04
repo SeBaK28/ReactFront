@@ -4,15 +4,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
 import { Outlet, Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import Offcanvas from 'react-bootstrap/Offcanvas';
 
 export function Layout() {
 
     return (
         <div className="app">
-            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+            <Navbar collapseOnSelect expand="lg" className="navbar mb-4 " sticky="top">
                 <Container fluid>
                     <Navbar.Brand>
                         <Link to="/" className="d-block">
@@ -60,6 +57,13 @@ export function Layout() {
                 <Container fluid>
                     <Outlet />
                 </Container>
+            </div>
+            <hr/>
+            <div className="cardFooter py-5 mt-5 bottom">
+                <div className="card-body text-center">
+                    <h5 className="card-title display-5">Special title treatment</h5>
+                    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
             </div>
         </div>
     )

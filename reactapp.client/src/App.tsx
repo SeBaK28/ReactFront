@@ -8,14 +8,17 @@ import Card from 'react-bootstrap/Card';
 function App() {
     return (
         <Container fluid>
-            <div className="mb-3">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <div className="">
+                <section className="background-section">
+                    <h1>Witamy na naszej stronie</h1>
+                </section>
             </div>
             <div className="mb-3">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </div>
             <hr />
             <Row>
+                <h3 className="heading">Aktualnosci</h3>
                 <Col className="mb-3">
                     <Card>
                         <Card.Header>Ogloszenie1</Card.Header>
@@ -67,29 +70,32 @@ function App() {
             </Row>
             <hr />
             <Row>
+                <h3 className="heading">Nadchodzace zlecenia</h3>
                 <Col className="mb-3">
                     <Card>
-                        <Card.Img variant="top" src="public/image/pepsi.png" />
+                        <Card.Img variant="top" src="public/image/BrokenCar.jpg" className="carImage"/>
                         <Card.Body>
                             <Card.Title>Aktualnosc 1</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>
-                            <Button variant="primary">Szczegoly</Button>
+                            <Button variant="primary" className="mx-3">Przyjmij zlecenie</Button>
+                            <Button variant="secondary" className="mx-3">Szczegoly</Button>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col className="mb-3">
                     <Card>
-                        <Card.Img variant="top" src="/image/2.png" className="cardImage"/>
+                        <Card.Img variant="top" src="public/image/BrokenCar.jpg" className="carImage" />
                         <Card.Body>
                             <Card.Title>Aktualnosc 2</Card.Title>
                             <Card.Text>
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>
-                            <Button variant="primary">Szczegoly</Button>
+                            <Button variant="primary" className="mx-3">Przyjmij zlecenie</Button>
+                            <Button variant="secondary" className="mx-3">Szczegoly</Button>
                         </Card.Body>
                     </Card>
                 </Col> 

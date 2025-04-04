@@ -1,8 +1,36 @@
 ﻿
-.logo{
-   width: 35px;
-   height: 35px;
-   margin-right:10px;
+.logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+button {
+    text-decoration: none;
+    color: unset;
+}
+
+.background-section {
+    background-image: url('../public/Image/backgroundPhoto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.carImage{
+    width:712px;
+    height:400px;
+    position:center;
+    margin:auto;
+    margin-bottom:10px;
+    margin-top:10px;
 }
 
 a{
@@ -10,8 +38,33 @@ a{
     color: unset;
 }
 
+.accordion-button{
+    background-color: #CFE2FF;
+}
+
+.dropdown-menu.show {
+    background-color: #CFE2FF;
+    border: none;
+}
+
 .cardImage {
     width: 80px;
     height: 80px;
     margin:auto;
+}
+
+.cardFooter {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.navbar {
+
+    background-color: #CFE2FF;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
 }
