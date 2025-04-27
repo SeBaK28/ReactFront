@@ -5,7 +5,8 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'; 
 import { useEffect, useState } from 'react';
-import { Client } from '../types/client/client.ts';
+import { Client } from '../types/ClientTyple/Client.ts';
+import ProvinceList from '../GroupSelect/provinceSelect.tsx';
 
 export const ClientList = () => {
     const [
@@ -57,12 +58,23 @@ export const ClientList = () => {
                 NrTel: "321321321",
                 Email: "nowak@example.com",
                 Termin: "04.04.2024",
+
+            },
+            {
+                Id: 3,
+                Nazwisko: "Malysz",
+                Marka: "BMW",
+                Model: "X3",
+                NrTel: "123456789",
+                Email: "malysz@example.com",
+                Termin: "05.05.2025",
             }];
             
         setListClient(listClientApi);
     },[])
     return(
         <Container fluid>
+            <div className="tableList mb-4" >            
             <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Filtrowanie listy</Accordion.Header>
@@ -96,26 +108,7 @@ export const ClientList = () => {
                             </Row>
                             <Row>
                                 <Col>
-                                    <Form.Group>Wojewodztwo</Form.Group>
-                                    <Form.Select>
-                                        <option>Wybierz</option>
-                                        <option value="1">Dolnoœl¹skie</option>
-                                        <option value="2">Kujawsko-Pomorskie</option>
-                                        <option value="3">Lubelskie</option>
-                                        <option value="4">Lubuskie</option>
-                                        <option value="5">£ódzkie</option>
-                                        <option value="6">Ma³opolskie</option>
-                                        <option value="7">Mazowieckie</option>
-                                        <option value="8">Opolskie</option>
-                                        <option value="9">Podkarpackie</option>
-                                        <option value="10">Podlaskie</option>
-                                        <option value="11">Pomorskie</option>
-                                        <option value="12">Œl¹skie</option>
-                                        <option value="13">Œwiêtokrzyskie</option>
-                                        <option value="14">Warmiñsko-Mazurskie</option>
-                                        <option value="15">Wielkopolskie</option>
-                                        <option value="16">Zachodniopomorskie</option>
-                                    </Form.Select>
+                                    <ProvinceList/>
                                 </Col>
                                 <Col>
                                     <Form.Group>Termin Od</Form.Group>
@@ -154,7 +147,8 @@ export const ClientList = () => {
                             <td>{item.Termin}</td>
                         </tr>)}
                 </tbody>
-            </Table>
+                </Table>
+            </div>
         </Container> 
     )
 }

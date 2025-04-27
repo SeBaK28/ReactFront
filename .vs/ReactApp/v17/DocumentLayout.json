@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\layout\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\layout\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\groupselect\\provinceselect.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\groupselect\\provinceselect.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\client\\clientlistpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\client\\clientlistpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\employees\\employeeslist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\employees\\employeeslist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\types\\clienttyple\\client.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\types\\clienttyple\\client.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\layout\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\layout\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|d:\\sebastian\\programowanie\\react\\reactapp\\reactapp.client\\src\\layout\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F16E5317-484A-16D2-47D2-02D1DC85B063}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\layout\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,47 +38,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClientListPage.tsx",
-              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Client\\ClientListPage.tsx",
-              "RelativeDocumentMoniker": "reactapp.client\\src\\Client\\ClientListPage.tsx",
-              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Client\\ClientListPage.tsx",
-              "RelativeToolTip": "reactapp.client\\src\\Client\\ClientListPage.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-04-03T18:19:19.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "main.tsx",
-              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\main.tsx",
-              "RelativeDocumentMoniker": "reactapp.client\\src\\main.tsx",
-              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\main.tsx",
-              "RelativeToolTip": "reactapp.client\\src\\main.tsx",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-04-02T19:12:21.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "App.css",
               "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\App.css",
               "RelativeDocumentMoniker": "reactapp.client\\src\\App.css",
               "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\App.css",
               "RelativeToolTip": "reactapp.client\\src\\App.css",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-02T18:49:11.095Z",
+              "WhenOpened": "2025-04-25T21:59:08.864Z",
               "EditorCaption": ""
             },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeesList.css",
+              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Employees\\EmployeesList.css",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\Employees\\EmployeesList.css",
+              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\Employees\\EmployeesList.css",
+              "RelativeToolTip": "reactapp.client\\src\\Employees\\EmployeesList.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-25T21:14:40.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Footer.css",
+              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\layout\\Footer.css",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\layout\\Footer.css",
+              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\layout\\Footer.css",
+              "RelativeToolTip": "reactapp.client\\src\\layout\\Footer.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-25T20:57:03.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Client.ts",
+              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\types\\ClientTyple\\Client.ts",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\types\\ClientTyple\\Client.ts",
+              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\types\\ClientTyple\\Client.ts",
+              "RelativeToolTip": "reactapp.client\\src\\types\\ClientTyple\\Client.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-25T20:39:24.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Layout.tsx",
+              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\layout\\Layout.tsx",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\layout\\Layout.tsx",
+              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\layout\\Layout.tsx",
+              "RelativeToolTip": "reactapp.client\\src\\layout\\Layout.tsx",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwD4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-25T20:57:53.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "provinceSelect.tsx",
+              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\GroupSelect\\provinceSelect.tsx",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\GroupSelect\\provinceSelect.tsx",
+              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\GroupSelect\\provinceSelect.tsx",
+              "RelativeToolTip": "reactapp.client\\src\\GroupSelect\\provinceSelect.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-25T21:48:17.111Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -79,22 +132,9 @@
               "RelativeDocumentMoniker": "reactapp.client\\src\\App.tsx",
               "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\App.tsx",
               "RelativeToolTip": "reactapp.client\\src\\App.tsx",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwEgAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-04-02T18:48:41.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Layout.tsx",
-              "DocumentMoniker": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\layout\\Layout.tsx",
-              "RelativeDocumentMoniker": "reactapp.client\\src\\layout\\Layout.tsx",
-              "ToolTip": "D:\\Sebastian\\Programowanie\\React\\ReactApp\\reactapp.client\\src\\layout\\Layout.tsx",
-              "RelativeToolTip": "reactapp.client\\src\\layout\\Layout.tsx",
-              "ViewState": "AgIAADIAAAAAAAAAAAAQwDwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-04-02T18:49:23.204Z",
               "EditorCaption": ""
             }
           ]

@@ -5,6 +5,8 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container'; 
+import ProvinceList from '../GroupSelect/provinceSelect';
+import "./ClientList.css"
 
 export const Client = () => {
     return (
@@ -16,6 +18,7 @@ export const Client = () => {
                         <Button variant="info" className="me-2">Anuluj</Button>
                     </Col>
                 </Row>
+                <div className="formsNewCl mb-4">
                 <Row className="mt-3">
                     <Tabs
                         defaultActiveKey="userData"
@@ -65,7 +68,7 @@ export const Client = () => {
                                     </Form.Group>
                                 </Col>
                                 <Col>
-                                    <Form.Group>Numer telefonu</Form.Group>
+                                    <Form.Group className="mb-2">Numer telefonu</Form.Group>
                                     <Form.Control type="tel"/>
                                 </Col>
                             </Row>
@@ -95,31 +98,12 @@ export const Client = () => {
                                     <Form.Control type="text" />
                                 </Col>
                                 <Col>
-                                    <Form.Group>Wojewodztwo</Form.Group>
-                                    <Form.Select>
-                                        <option>Wybierz</option>
-                                        <option value="1">Dolnoslaskie</option>
-                                        <option value="2">Kujawsko-Pomorskie</option>
-                                        <option value="3">Lubelskie</option>
-                                        <option value="4">Lubuskie</option>
-                                        <option value="5">Lodzkie</option>
-                                        <option value="6">Malopolskie</option>
-                                        <option value="7">Mazowieckie</option>
-                                        <option value="8">Opolskie</option>
-                                        <option value="9">Podkarpackie</option>
-                                        <option value="10">Podlaskie</option>
-                                        <option value="11">Pomorskie</option>
-                                        <option value="12">Slaskie</option>
-                                        <option value="13">Swietokrzyskie</option>
-                                        <option value="14">Warminsko-Mazurskie</option>
-                                        <option value="15">Wielkopolskie</option>
-                                        <option value="16">Zachodniopomorskie</option>
-                                    </Form.Select>
+                                    <ProvinceList/>
                                 </Col>
                             </Row>
                             <Row className = "mx-0">
                                 <Form.Group>Dodatkowe Informacje</Form.Group>
-                                <Form.Control type ="textarea"/>
+                                    <Form.Control type="textarea" style={{height:"120px"}} />
                             </Row>
                         </Tab>
                         <Tab eventKey="samochod" title="Samochod">
@@ -150,7 +134,7 @@ export const Client = () => {
                                 </Col>
                                 <Row>
                                     <Col>
-                                        <Form.Group>Rodzaj Paliwa</Form.Group>
+                                        <Form.Group className="mb-2">Rodzaj Paliwa</Form.Group>
                                         <Form.Select>
                                             <option>Wybierz</option>
                                             <option value="1">Benzyna</option>
@@ -180,20 +164,21 @@ export const Client = () => {
                                 </Col>
                                 <Col>
                                     <Form.Group>
-                                        <Form.Label>Opis Problemu</Form.Label>
-                                        <Form.Control type="textarea" />
-                                    </Form.Group>
-                                </Col>
-                                <Col>
-                                    <Form.Group>
                                         <Form.Label>Termin wizyty</Form.Label>
                                         <Form.Control type="date" />
                                     </Form.Group>
                                 </Col>
                             </Row>
+                                <Col>
+                                    <Form.Group>
+                                        <Form.Label>Opis Problemu</Form.Label>
+                                        <Form.Control type="textarea" style={{ height: "120px" }} />                                        
+                                    </Form.Group>
+                                </Col>
                         </Tab>
                     </Tabs>
-                </Row>
+                    </Row>
+                </div>
             </Form>
         </Container>
     )

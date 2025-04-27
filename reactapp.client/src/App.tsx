@@ -3,75 +3,82 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card'; 
+import Card from 'react-bootstrap/Card';
+import PieCharts from './Charts/Piecharts';
+import LineCharts from './Charts/Linecharts';
 
 function App() {
+
     return (
         <Container fluid>
-            <div className="">
-                <section className="background-section">
-                    <h1>Witamy na naszej stronie</h1>
-                </section>
-            </div>
-            <div className="mb-3">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </div>
-            <hr />
-            <Row>
-                <h3 className="heading">Aktualnosci</h3>
-                <Col className="mb-3">
-                    <Card>
-                        <Card.Header>Ogloszenie1</Card.Header>
+            <Row className="app-body">
+                <Row className="app-body mt-3">
+                    <Col className="my-3">
+                        <h3>Ilosc wykonanych zlecen w dniu:</h3>
+                        <LineCharts />
+                    </Col>
+                </Row>
+                <hr />
+                <Row className="mb-3">
+                    <Card className="card-message">
+                        <Card.Header>Wiadomosci</Card.Header>
                         <Card.Body>
-                            <Card.Title>Special title treatment</Card.Title>
-                            <Card.Text>
-                                With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Button variant="primary">Visit</Button>
+                                <img src="./public/Image/telekonsultant.png" style={{ width: "120px", height: "120px", borderRadius: "30px" }} />
+                                <Card.Body>Masz 2 wiadomosci do odczytania</Card.Body>
+                        </Card.Body>
+                    </Card>
+                </Row>
+                <hr/>
+                <h3 className="m-3">Termin zlecenia</h3>
+                <Col className="my-3">
+                    <Card>
+                        <Card.Header >Ogloszenie1</Card.Header>
+                        <Card.Body >
+                            <Card.Title>Toyota Yaris</Card.Title>
+                            <Card.Body>Piotr Nowak</Card.Body>
+                            <PieCharts/>
+                            <Button variant="primary" className="mx-3">Szczegoly</Button>
                         </Card.Body>
                     </Card>
                 </Col>    
-                <Col className="mb-3">
+                <Col className="my-3">
                     <Card>
                         <Card.Header>Ogloszenie2</Card.Header>
                         <Card.Body>
-                            <Card.Title>Special title treatment</Card.Title>
-                            <Card.Text>
-                                With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Button variant="primary">Visit</Button>
+                            <Card.Title>Audi A3</Card.Title>
+                            <Card.Body>Lech Nowak</Card.Body>
+                            <PieCharts />
+                            <Button variant="primary" className="mx-3">Szczegoly</Button>
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col className="mb-3">
+                <Col className="my-3">
                     <Card>
                         <Card.Header>Ogloszenie3</Card.Header>
                         <Card.Body>
-                            <Card.Title>Special title treatment</Card.Title>
-                            <Card.Text>
-                                With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Button variant="primary">Visit</Button>
+                            <Card.Title>Renault Clio</Card.Title>
+                            <Card.Body>Jan Kowalski</Card.Body>
+                            <PieCharts />
+                            <Button variant="primary" className="mx-3">Szczegoly</Button>
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col className="mb-3">
+                <Col className="my-3">
                     <Card>
                         <Card.Header>Ogloszenie4</Card.Header>
                         <Card.Body>
-                            <Card.Title>Special title treatment</Card.Title>
-                            <Card.Text>
-                                With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Button variant="primary">Visit</Button>
+                            <Card.Title>Volkswagen Golf</Card.Title>
+                            <Card.Body>Marek Nowak</Card.Body>
+                            <PieCharts />
+                            <Button variant="primary" className="mx-3" >Szczegoly</Button>
                         </Card.Body>
                     </Card>
                 </Col>
             </Row>
             <hr />
-            <Row>
-                <h3 className="heading">Nadchodzace zlecenia</h3>
-                <Col className="mb-3">
+            <Row className="app-body mt-3">
+                <h3>Nadchodzace zlecenia</h3>
+                <Col className="my-3">
                     <Card>
                         <Card.Img variant="top" src="public/image/BrokenCar.jpg" className="carImage"/>
                         <Card.Body>
@@ -80,12 +87,12 @@ function App() {
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>
-                            <Button variant="primary" className="mx-3">Przyjmij zlecenie</Button>
-                            <Button variant="secondary" className="mx-3">Szczegoly</Button>
+                            <Button variant="primary" className="m-3">Przyjmij zlecenie</Button>
+                            <Button variant="secondary" className="m-3">Szczegoly</Button>
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col className="mb-3">
+                <Col className="my-3">
                     <Card>
                         <Card.Img variant="top" src="public/image/BrokenCar.jpg" className="carImage" />
                         <Card.Body>
@@ -94,15 +101,17 @@ function App() {
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>
-                            <Button variant="primary" className="mx-3">Przyjmij zlecenie</Button>
-                            <Button variant="secondary" className="mx-3">Szczegoly</Button>
+                            <Button variant="primary" className="m-3">Przyjmij zlecenie</Button>
+                            <Button variant="secondary" className="m-3">Szczegoly</Button>
                         </Card.Body>
                     </Card>
-                </Col> 
-            </Row>
-            
+                </Col>
+                </Row>
         </Container>
     )
 }
 
 export default App;
+
+
+

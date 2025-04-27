@@ -4,16 +4,18 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
 import { Outlet, Link } from 'react-router-dom';
+import Footer from './Footer';
+import "./Layout.css";
 
 export function Layout() {
 
     return (
-        <div className="app">
+        <div className="app">     
             <Navbar collapseOnSelect expand="lg" className="navbar mb-4 " sticky="top">
                 <Container fluid>
                     <Navbar.Brand>
                         <Link to="/" className="d-block">
-                            <Image src="public/image/HomeButton.png" className="logo"/>
+                            CarWorkshop
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -53,18 +55,12 @@ export function Layout() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <div className="px-3">
-                <Container fluid>
+            <div>
+                <Container>
                     <Outlet />
                 </Container>
             </div>
-            <hr/>
-            <div className="cardFooter py-5 mt-5 bottom">
-                <div className="card-body text-center">
-                    <h5 className="card-title display-5">Special title treatment</h5>
-                    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
+                <Footer/>
         </div>
     )
 

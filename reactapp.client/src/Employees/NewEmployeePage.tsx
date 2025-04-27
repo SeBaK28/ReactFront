@@ -5,6 +5,9 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container'; 
+import ProvinceList from '../GroupSelect/provinceSelect';
+import RoleList from '../GroupSelect/roleSelect';
+import "./EmployeesList.css"
 
 export const Pracownik = () => {
     return (
@@ -16,6 +19,7 @@ export const Pracownik = () => {
                         <Button variant="info" className="me-2">Anuluj</Button>
                     </Col>
                 </Row>
+                <div className="formsNewEm mb-4">
                 <Row className="mt-3">
                     <Tabs
                         defaultActiveKey="danePodstawowe"
@@ -89,22 +93,7 @@ export const Pracownik = () => {
                                     </Form.Group>
                                 </Col>
                                 <Col>
-                                    <Form.Group>
-                                        <Form.Label>Stanowisko</Form.Label>
-                                        <Form.Select>
-                                            <option>Wybierz</option>
-                                            <option value="1">Blacharz</option>
-                                            <option value="2">Lakiernik</option>
-                                            <option value="3">Mechanik</option>
-                                            <option value="4">Elektryk samochodowy</option>
-                                            <option value="5">Diagnosta</option>
-                                            <option value="6">Doradca serwisowy</option>
-                                            <option value="7">Kierownik warsztatu</option>
-                                            <option value="8">Pracownik recepcji</option>
-                                            <option value="9">Specjalista ds. czesci zamiennych</option>
-                                            <option value="10">Detailer samochodowy</option>
-                                        </Form.Select>
-                                    </Form.Group>
+                                    <RoleList/>
                                 </Col>
                             </Row>
                             <Row className="mb-3">
@@ -153,16 +142,17 @@ export const Pracownik = () => {
                                         <Form.Label>Nr Konta Bankowego</Form.Label>
                                         <Form.Control type="text" />
                                     </Form.Group>
-                                </Col>
-                                <Col className="col-8">
+                                    </Col>
+                                </Row>
+                                <Col >
                                     <Form.Group>
                                         <Form.Label>Dodatkowe informacje</Form.Label>
-                                        <Form.Control as="textarea" />
+                                            <Form.Control as="textarea" style={{width:"100%", height:"120px"}} />
                                     </Form.Group>
                                 </Col>
-                            </Row>
+
                         </Tab>
-                        <Tab eventKey="dodatek" title="Dane korespondencyjne">
+                        <Tab eventKey="dodatek" title="Dane korespondencyjne" className="mb-5">
                             <Row className="mb-3">
                                 <Col>
                                     <Form.Group>
@@ -171,26 +161,7 @@ export const Pracownik = () => {
                                     </Form.Group>
                                 </Col>
                                 <Col>
-                                    <Form.Group>Wojewodztwo</Form.Group>
-                                    <Form.Select>
-                                        <option>Wybierz</option>
-                                        <option value="1">Dolnoslaskie</option>
-                                        <option value="2">Kujawsko-Pomorskie</option>
-                                        <option value="3">Lubelskie</option>
-                                        <option value="4">Lubuskie</option>
-                                        <option value="5">Lodzkie</option>
-                                        <option value="6">Malopolskie</option>
-                                        <option value="7">Mazowieckie</option>
-                                        <option value="8">Opolskie</option>
-                                        <option value="9">Podkarpackie</option>
-                                        <option value="10">Podlaskie</option>
-                                        <option value="11">Pomorskie</option>
-                                        <option value="12">Slaskie</option>
-                                        <option value="13">Swietokrzyskie</option>
-                                        <option value="14">Warminsko-Mazurskie</option>
-                                        <option value="15">Wielkopolskie</option>
-                                        <option value="16">Zachodniopomorskie</option>
-                                    </Form.Select>
+                                    <ProvinceList/>
                                 </Col>
                             </Row>
                             <Row>
@@ -264,6 +235,7 @@ export const Pracownik = () => {
                         </Tab>
                     </Tabs>
                     </Row>
+                </div>
             </Form>
         </Container>
     )

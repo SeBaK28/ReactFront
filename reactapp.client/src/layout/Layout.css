@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #CFE2FF;
+    position: sticky;
+    top:0;
+    width:100%;
+}
+
+.app {
+    background-color: #E0E0E0;
+}
+
+.dropdown-menu.show {
+    background-color: #CFE2FF;
+    border: none;
+}

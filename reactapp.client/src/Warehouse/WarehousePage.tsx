@@ -13,6 +13,8 @@ import Container from 'react-bootstrap/Container';
 export const Magazyn = () => {
     return (
         <Container fluid>
+            <div className="tableList mb-3">
+
             <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Znajdz</Accordion.Header>
@@ -137,7 +139,8 @@ export const Magazyn = () => {
                         <td>5901123112346</td>
                     </tr>
                 </tbody>
-            </Table>
+                </Table>
+            </div>
         </Container>
     )
 }

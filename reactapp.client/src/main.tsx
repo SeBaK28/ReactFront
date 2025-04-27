@@ -4,10 +4,10 @@ import './index.css'
 import App from "./App.tsx"
 import { Client } from "./Client/AddClientPage"
 import { ClientList } from "./Client/ClientListPage"
-import { Pracownik } from "./Pracownik/PracownikPage"
-import { Pracownicy } from "./Pracownik/PracownicyPage"
-import { StatusPrac } from "./Praca/StatusPracyPage"
-import { Magazyn } from "./Czesci/MagazynCzesciPage"
+import { Pracownik } from "./Employees/NewEmployeePage.tsx"
+import { Pracownicy } from "./Employees/EmployeesListPage.tsx"
+import { StatusPrac } from "./WorkStatus/WorkStatusPage.tsx"
+import { Magazyn } from "./Warehouse/WarehousePage.tsx"
 import { Layout } from "./layout/Layout"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 

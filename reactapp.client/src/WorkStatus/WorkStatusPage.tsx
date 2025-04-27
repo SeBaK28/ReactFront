@@ -12,6 +12,7 @@ import Container from 'react-bootstrap/Container';
 export const StatusPrac = () => {
     return (
         <Container fluid>
+            <div className="tableList mb-4">
             <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Wprowadz dane pojazdu</Accordion.Header>
@@ -179,6 +180,7 @@ export const StatusPrac = () => {
                     </Tabs>
                 </Row>
             </Form>
+            </div>
         </Container>
     )
 }
