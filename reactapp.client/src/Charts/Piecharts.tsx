@@ -40,7 +40,7 @@ const needle = (value: number, data: any[], cx: number, cy: number, iR: number, 
     ];
 };
 
-export default class Example extends PureComponent {
+export default class PieCharts extends PureComponent {
     render() {
         return (
             <PieChart width={250} height={225}>

@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import PieCharts from './Charts/Piecharts';
 import LineCharts from './Charts/Linecharts';
+import { Link } from 'react-router-dom';
 
 function App() {
 
@@ -13,20 +14,23 @@ function App() {
         <Container fluid>
             <Row className="app-body">
                 <Row className="app-body mt-3">
-                    <Col className="my-3">
-                        <h3>Ilosc wykonanych zlecen w dniu:</h3>
-                        <LineCharts />
+                    <Col className="my-3 col-9" style={{ height: "20rem" }}>                        
+                            <Card >
+                                <h3>Ilosc wykonanych zlecen w dniu:</h3>
+                                <LineCharts />
+                            </Card>                        
                     </Col>
-                </Row>
-                <hr />
-                <Row className="mb-3">
+                    <Col className="my-3 col-3" style={{ height: "20rem" }}>
+                        <Link to="/messages">    
                     <Card className="card-message">
-                        <Card.Header>Wiadomosci</Card.Header>
-                        <Card.Body>
-                                <img src="./public/Image/telekonsultant.png" style={{ width: "120px", height: "120px", borderRadius: "30px" }} />
-                                <Card.Body>Masz 2 wiadomosci do odczytania</Card.Body>
-                        </Card.Body>
-                    </Card>
+                            <Card.Header>Wiadomosci</Card.Header>
+                            <Card.Body>
+                                    <img src="./public/Image/telekonsultant.png" style={{ width: "120px", height: "120px", borderRadius: "30px" }} />
+                                    <Card.Body>Masz 2 wiadomosci do odczytania</Card.Body>
+                            </Card.Body>
+                        </Card>
+                        </Link>
+                    </Col>
                 </Row>
                 <hr/>
                 <h3 className="m-3">Termin zlecenia</h3>

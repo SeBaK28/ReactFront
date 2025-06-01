@@ -10,5 +10,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="src\Charts\" />
+    <Folder Include="src\Messages\" />
   </ItemGroup>
 </Project>

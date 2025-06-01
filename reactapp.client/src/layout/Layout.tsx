@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
 import { Outlet, Link } from 'react-router-dom';
 import Footer from './Footer';
-import "./Layout.css";
+import './Layout.css';
 
 export function Layout() {
 
@@ -49,7 +49,7 @@ export function Layout() {
                                 <Link to="/magazyn">Magazyn</Link>
                             </Nav.Link>
                             <Nav.Link eventKey={2} href="#memes">
-                                Account
+                                Konto
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
